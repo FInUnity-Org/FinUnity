@@ -261,14 +261,15 @@
                   if (card) {
                       card.addEventListener('mouseenter', function() {
                           try {
-                              this.style.animation = 'float 3s ease-in-out infinite';
+                              this.style.transition = 'transform 0.3s ease';
+                              this.style.transform = 'scale(1.05)';
                           } catch (error) {
                               console.warn('Error applying hover animation:', error);
                           }
                       });
                       card.addEventListener('mouseleave', function() {
                           try {
-                              this.style.animation = '';
+                              this.style.transform = 'scale(1)';
                           } catch (error) {
                               console.warn('Error removing hover animation:', error);
                           }
