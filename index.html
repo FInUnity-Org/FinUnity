@@ -1,370 +1,384 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <link rel="stylesheet" href="style.css">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta property="og:title" content="FinUnity - The Future of Personal Finance">
-      <meta property="og:image" content="<PLACEHOLDER>">
-      <meta property="og:url" content="https://finunity.org">
-      <meta property="og:type" content="website">
-      <title>FinUnity - The Future of Personal Finance | Coming Soon</title>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
 
-     
-  </head>
-  <body>
-      <!-- Navigation -->
-      <nav id="navbar">
-          <div class="nav-container">
-              <div class="logo">FinUnity</div>
-              <div class="nav-links">
-                  <a href="#building">What We're Building</a>
-                  <a href="#ai">AI Assistant</a>
-                  <a href="#roadmap">Roadmap</a>
-                  <a href="#about">About</a>
-                  <a href="#waitlist" class="nav-cta">Join Waitlist</a>
-              </div>
-              <button class="mobile-menu">☰</button>
-          </div>
-      </nav>
-  
-      <!-- Hero Section -->
-      <section class="hero">
-          <div class="hero-content">
-              <div class="hero-text">
-                  <span class="coming-soon-badge">Coming Soon - Q4 2025</span>
-                  <h1>We're Building the Future of Personal Finance</h1>
-                  <p>FinUnity will revolutionize how you manage money with AI-powered insights, seamless account integration, and intelligent financial guidance - all in one beautiful app.</p>
-                  <div class="hero-buttons">
-                      <a href="#waitlist" class="btn-primary">
-                          Join the Waitlist
-                          <span>→</span>
-                      </a>
-                      <a href="#building" class="btn-secondary">See What's Coming</a>
-                  </div>
-                  <div class="countdown" id="countdown">
-                      <div class="countdown-item">
-                          <div class="countdown-number" id="days">120</div>
-                          <div class="countdown-label">Days</div>
-                      </div>
-                      <div class="countdown-item">
-                          <div class="countdown-number" id="hours">00</div>
-                          <div class="countdown-label">Hours</div>
-                      </div>
-                      <div class="countdown-item">
-                          <div class="countdown-number" id="minutes">00</div>
-                          <div class="countdown-label">Minutes</div>
-                      </div>
-                      <div class="countdown-item">
-                          <div class="countdown-number" id="seconds">00</div>
-                          <div class="countdown-label">Seconds</div>
-                      </div>
-                  </div>
-              </div>
-              <div class="hero-visual">
-                  <div class="phone-mockup">
-                      <div class="phone-frame">
-                          <div class="phone-screen">
-                              <div class="mock-card">
-                                  <div style="font-size: 0.8rem; opacity: 0.8;">Total Balance</div>
-                                  <div style="font-size: 2rem; font-weight: 800;">$24,538.00</div>
-                                  <div style="font-size: 0.9rem; color: #10B981; margin-top: 0.5rem;">↑ 12% this month</div>
-                              </div>
-                              <div class="mock-stat" style="animation-delay: 0.3s;">
-                                  <div style="display: flex; justify-content: space-between; align-items: center;">
-                                      <span>Daily Spending Goal</span>
-                                      <span style="font-weight: 700; color: var(--accent-green);">$85</span>
-                                  </div>
-                                  <div style="margin-top: 0.5rem; height: 4px; background: rgba(255,255,255,0.2); border-radius: 2px; overflow: hidden;">
-                                      <div style="width: 65%; height: 100%; background: var(--accent-green); border-radius: 2px;"></div>
-                                  </div>
-                              </div>
-                              <div class="mock-stat" style="animation-delay: 0.6s;">
-                                  <div style="display: flex; justify-content: space-between; align-items: center;">
-                                      <span>Credit Cards</span>
-                                      <span style="color: var(--accent-pink);">3 active</span>
-                                  </div>
-                                  <div style="font-size: 0.8rem; opacity: 0.7; margin-top: 0.5rem;">Available Credit: $12,450</div>
-                              </div>
-                              <div class="mock-stat" style="animation-delay: 0.9s;">
-                                  <div style="display: flex; justify-content: space-between; align-items: center;">
-                                      <span>Next Payment</span>
-                                      <span style="color: var(--accent-blue);">in 3 days</span>
-                                  </div>
-                                  <div style="font-size: 0.8rem; opacity: 0.7; margin-top: 0.5rem;">Chase Sapphire: $156.00</div>
-                              </div>
-                              <div class="mock-stat" style="animation-delay: 1.2s; background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(236, 72, 153, 0.1));">
-                                  <div style="display: flex; align-items: center; gap: 0.5rem;">
-                                      <span style="font-size: 1.5rem;">🎯</span>
-                                      <div>
-                                          <div style="font-weight: 600;">Savings Goal Progress</div>
-                                          <div style="font-size: 0.8rem; opacity: 0.7;">Vacation Fund: 68% Complete</div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-  
-      <!-- What We're Building Section -->
-      <section class="building" id="building">
-          <div class="section-header animate-on-scroll">
-              <h2>What We're Building for You</h2>
-              <p>A comprehensive financial platform that brings all your money management needs together</p>
-          </div>
-          <div class="features-grid">
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">
-                      🏦
-                      <span class="feature-status">In Dev</span>
-                  </div>
-                  <h3>Universal Bank Integration</h3>
-                  <p>We're creating seamless connections with major banks and financial institutions. Track all your accounts, balances, and transactions in real-time with bank-level security.</p>
-              </div>
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">
-                      🤖
-                      <span class="feature-status">In Dev</span>
-                  </div>
-                  <h3>AI Financial Assistant</h3>
-                  <p>Our AI assistant will answer questions like "Can I afford this?" instantly. Get personalized advice, spending insights, and smart recommendations based on your unique financial situation.</p>
-              </div>
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">
-                      💳
-                      <span class="feature-status">Planning</span>
-                  </div>
-                  <h3>Smart Card Optimizer</h3>
-                  <p>We're building technology to automatically recommend the best credit card for every purchase. Maximize rewards, track spending, and never miss a payment.</p>
-              </div>
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">
-                      📊
-                      <span class="feature-status">Design</span>
-                  </div>
-                  <h3>Advanced Analytics</h3>
-                  <p>Beautiful, intuitive dashboards will show you exactly where your money goes. Understand spending patterns, identify savings opportunities, and track progress toward goals.</p>
-              </div>
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">
-                      🎯
-                      <span class="feature-status">Planning</span>
-                  </div>
-                  <h3>Intelligent Goal Setting</h3>
-                  <p>Set financial goals and we'll create personalized plans to achieve them. Whether saving for vacation or building emergency funds, we'll guide you every step.</p>
-              </div>
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">
-                      🗺️
-                      <span class="feature-status">Design</span>
-                  </div>
-                  <h3>Location-Based Savings</h3>
-                  <p>Our innovative Savings Map will show you which card to use at nearby locations for maximum rewards. Save money automatically as you shop.</p>
-              </div>
-          </div>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="FinUnity - The Future of Personal Finance">
+  <meta property="og:image" content="<PLACEHOLDER>">
+  <meta property="og:url" content="https://finunity.org">
+  <meta property="og:type" content="website">
+  <title>FinUnity - The Future of Personal Finance | Coming Soon</title>
 
-      <!-- AI Section -->
-<section class="ai-section" id="ai">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">FinUnity</div>
+      <div class="nav-links">
+        <a href="#building">What We're Building</a>
+        <a href="#ai">AI Assistant</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#about">About</a>
+        <a href="#waitlist" class="nav-cta">Join Waitlist</a>
+      </div>
+      <button class="mobile-menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="coming-soon-badge">Coming Soon - Q4 2025</span>
+        <h1>We're Building the Future of Personal Finance</h1>
+        <p>FinUnity will revolutionize how you manage money with AI-powered insights, seamless account integration, and
+          intelligent financial guidance - all in one beautiful app.</p>
+        <div class="hero-buttons">
+          <a href="#waitlist" class="btn-primary">
+            Join the Waitlist
+            <span>→</span>
+          </a>
+          <a href="#building" class="btn-secondary">See What's Coming</a>
+        </div>
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <div class="countdown-number" id="days">120</div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="hours">00</div>
+            <div class="countdown-label">Hours</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="minutes">00</div>
+            <div class="countdown-label">Minutes</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="seconds">00</div>
+            <div class="countdown-label">Seconds</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <div class="mock-card">
+                <div style="font-size: 0.8rem; opacity: 0.8;">Total Balance</div>
+                <div style="font-size: 2rem; font-weight: 800;">$24,538.00</div>
+                <div style="font-size: 0.9rem; color: #10B981; margin-top: 0.5rem;">↑ 12% this month</div>
+              </div>
+              <div class="mock-stat" style="animation-delay: 0.3s;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span>Daily Spending Goal</span>
+                  <span style="font-weight: 700; color: var(--accent-green);">$85</span>
+                </div>
+                <div
+                  style="margin-top: 0.5rem; height: 4px; background: rgba(255,255,255,0.2); border-radius: 2px; overflow: hidden;">
+                  <div style="width: 65%; height: 100%; background: var(--accent-green); border-radius: 2px;"></div>
+                </div>
+              </div>
+              <div class="mock-stat" style="animation-delay: 0.6s;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span>Credit Cards</span>
+                  <span style="color: var(--accent-pink);">3 active</span>
+                </div>
+                <div style="font-size: 0.8rem; opacity: 0.7; margin-top: 0.5rem;">Available Credit: $12,450</div>
+              </div>
+              <div class="mock-stat" style="animation-delay: 0.9s;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span>Next Payment</span>
+                  <span style="color: var(--accent-blue);">in 3 days</span>
+                </div>
+                <div style="font-size: 0.8rem; opacity: 0.7; margin-top: 0.5rem;">Chase Sapphire: $156.00</div>
+              </div>
+              <div class="mock-stat"
+                style="animation-delay: 1.2s; background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(236, 72, 153, 0.1));">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.5rem;">🎯</span>
+                  <div>
+                    <div style="font-weight: 600;">Savings Goal Progress</div>
+                    <div style="font-size: 0.8rem; opacity: 0.7;">Vacation Fund: 68% Complete</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We're Building Section -->
+  <section class="building" id="building">
     <div class="section-header animate-on-scroll">
-        <h2>Meet Your AI Financial Assistant</h2>
-        <p>Get instant answers about your spending power with intelligent, personalized financial guidance</p>
+      <h2>What We're Building for You</h2>
+      <p>A comprehensive financial platform that brings all your money management needs together</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">
+          🏦
+          <span class="feature-status">In Dev</span>
+        </div>
+        <h3>Universal Bank Integration</h3>
+        <p>We're creating seamless connections with major banks and financial institutions. Track all your accounts,
+          balances, and transactions in real-time with bank-level security.</p>
+      </div>
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">
+          🤖
+          <span class="feature-status">In Dev</span>
+        </div>
+        <h3>AI Financial Assistant</h3>
+        <p>Our AI assistant will answer questions like "Can I afford this?" instantly. Get personalized advice, spending
+          insights, and smart recommendations based on your unique financial situation.</p>
+      </div>
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">
+          💳
+          <span class="feature-status">Planning</span>
+        </div>
+        <h3>Smart Card Optimizer</h3>
+        <p>We're building technology to automatically recommend the best credit card for every purchase. Maximize
+          rewards, track spending, and never miss a payment.</p>
+      </div>
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">
+          📊
+          <span class="feature-status">Design</span>
+        </div>
+        <h3>Advanced Analytics</h3>
+        <p>Beautiful, intuitive dashboards will show you exactly where your money goes. Understand spending patterns,
+          identify savings opportunities, and track progress toward goals.</p>
+      </div>
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">
+          🎯
+          <span class="feature-status">Planning</span>
+        </div>
+        <h3>Intelligent Goal Setting</h3>
+        <p>Set financial goals and we'll create personalized plans to achieve them. Whether saving for vacation or
+          building emergency funds, we'll guide you every step.</p>
+      </div>
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">
+          🗺️
+          <span class="feature-status">Design</span>
+        </div>
+        <h3>Location-Based Savings</h3>
+        <p>Our innovative Savings Map will show you which card to use at nearby locations for maximum rewards. Save
+          money automatically as you shop.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Section -->
+  <section class="ai-section" id="ai">
+    <div class="section-header animate-on-scroll">
+      <h2>Meet Your AI Financial Assistant</h2>
+      <p>Get instant answers about your spending power with intelligent, personalized financial guidance</p>
     </div>
     <div class="ai-content">
-        <div class="ai-visual animate-on-scroll">
-            <div class="ai-chat">
-                <div class="chat-message">
-                    <p>Can I afford to buy a $1,200 laptop this month?</p>
-                </div>
-                <div class="chat-response">
-                    <p>Based on your current finances, you can afford it! After this purchase, you'll have $3,450 remaining. Your monthly expenses are covered, and you'll still have a healthy emergency buffer. 💪</p>
-                </div>
-            </div>
+      <div class="ai-visual animate-on-scroll">
+        <div class="ai-chat">
+          <div class="chat-message">
+            <p>Can I afford to buy a $1,200 laptop this month?</p>
+          </div>
+          <div class="chat-response">
+            <p>Based on your current finances, you can afford it! After this purchase, you'll have $3,450 remaining.
+              Your monthly expenses are covered, and you'll still have a healthy emergency buffer. 💪</p>
+          </div>
         </div>
-        <div class="ai-text animate-on-scroll">
-            <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; color: white;">
-                Smart Financial Guidance, 24/7
-            </h3>
-            <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 2rem; line-height: 1.6;">
-                Our AI assistant will provide instant answers about your spending power, personalized financial advice, and smart recommendations tailored to your unique situation.
-            </p>
-            <ul style="list-style: none; padding: 0;">
-                <li style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
-                    <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
-                    Real-time affordability analysis
-                </li>
-                <li style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
-                    <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
-                    Personalized financial advice
-                </li>
-                <li style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
-                    <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
-                    Smart budgeting recommendations
-                </li>
-                <li style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
-                    <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
-                    Intelligent spending insights
-                </li>
-            </ul>
-        </div>
+      </div>
+      <div class="ai-text animate-on-scroll">
+        <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; color: white;">
+          Smart Financial Guidance, 24/7
+        </h3>
+        <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 2rem; line-height: 1.6;">
+          Our AI assistant will provide instant answers about your spending power, personalized financial advice, and
+          smart recommendations tailored to your unique situation.
+        </p>
+        <ul style="list-style: none; padding: 0;">
+          <li
+            style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
+            <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
+            Real-time affordability analysis
+          </li>
+          <li
+            style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
+            <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
+            Personalized financial advice
+          </li>
+          <li
+            style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
+            <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
+            Smart budgeting recommendations
+          </li>
+          <li
+            style="padding: 0.75rem 0; color: rgba(255, 255, 255, 0.8); display: flex; align-items: center; gap: 1rem;">
+            <span style="color: var(--accent-green); font-size: 1.5rem;">✓</span>
+            Intelligent spending insights
+          </li>
+        </ul>
+      </div>
     </div>
-</section>
-  
-      <!-- Roadmap Section -->
-      <section class="roadmap" id="roadmap">
-          <div class="section-header animate-on-scroll">
-              <h2>Our Journey to Launch</h2>
-              <p>Follow our progress as we build the future of personal finance</p>
-          </div>
-          <div class="timeline">
-              <div class="timeline-item animate-on-scroll">
-                  <div class="timeline-content">
-                      <h3>Q4 2024 - Foundation</h3>
-                      <p>✅ Secured initial funding<br>
-                         ✅ Assembled core team<br>
-                         ✅ Completed market research<br>
-                         ✅ Defined product roadmap</p>
-                  </div>
-                  <div class="timeline-dot completed"></div>
-              </div>
-              <div class="timeline-item animate-on-scroll">
-                  <div class="timeline-content">
-                      <h3>Q1 2025 - Development</h3>
-                      <p>🔄 Building core infrastructure<br>
-                         🔄 Developing AI engine<br>
-                         🔄 Creating bank integrations<br>
-                         🔄 Designing user interface</p>
-                  </div>
-                  <div class="timeline-dot current"></div>
-              </div>
-              <div class="timeline-item animate-on-scroll">
-                  <div class="timeline-content">
-                      <h3>Q2 2025 - Beta Launch</h3>
-                      <p>📅 Private beta testing<br>
-                         📅 User feedback integration<br>
-                         📅 Security audits<br>
-                         📅 Public beta release</p>
-                  </div>
-                  <div class="timeline-dot"></div>
-              </div>
-              <div class="timeline-item animate-on-scroll">
-                  <div class="timeline-content">
-                      <h3>Q3 2025 - Official Launch</h3>
-                      <p>🚀 Full public release<br>
-                         🚀 iOS & Android apps<br>
-                         🚀 Premium features<br>
-                         🚀 Partner integrations</p>
-                  </div>
-                  <div class="timeline-dot"></div>
-              </div>
-          </div>
-      </section>
-  
-      <!-- About Section -->
-      <section class="building" id="about">
-          <div class="section-header animate-on-scroll">
-              <h2>Why We're Building FinUnity</h2>
-              <p>Our mission is to democratize financial intelligence</p>
-          </div>
-          <div class="features-grid">
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">💡</div>
-                  <h3>The Problem</h3>
-                  <p>Managing money across multiple accounts, cards, and goals is overwhelming. Current apps are either too simple or too complex, and none offer truly intelligent guidance.</p>
-              </div>
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">🎯</div>
-                  <h3>Our Solution</h3>
-                  <p>We're combining the power of AI with beautiful design to create a financial companion that actually understands your needs and helps you make better decisions.</p>
-              </div>
-              <div class="feature-card animate-on-scroll">
-                  <div class="feature-icon">🌟</div>
-                  <h3>Our Vision</h3>
-                  <p>A world where everyone has access to personalized financial intelligence, where managing money is simple, and where financial stress is replaced with confidence.</p>
-              </div>
-          </div>
-      </section>
-  
-      <!-- Waitlist Section -->
-      <section class="waitlist" id="waitlist">
-          <div class="waitlist-content animate-on-scroll">
-              <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 1.5rem; background: linear-gradient(135deg, #FFFFFF, var(--light-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-                  Be Among the First to Experience FinUnity
-              </h2>
-              <p style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 3rem;">
-                  Join our exclusive waitlist for early access, special launch pricing, and the opportunity to shape the future of personal finance.
-              </p>
-              
-              <form class="waitlist-form" id="waitlistForm">
-                  <input 
-                      type="email" 
-                      placeholder="Enter your email" 
-                      class="waitlist-input" 
-                      required
-                      id="emailInput"
-                  >
-                  <button type="submit" class="btn-primary">
-                      Join Waitlist
-                      <span>→</span>
-                  </button>
-              </form>
-  
-              <!-- <div class="waitlist-stats"> -->
-                  <!-- <div class="waitlist-stat"> -->
-                      <!-- <div class="waitlist-number" id="waitlistCount">2,847</div> -->
-                      <!-- <div class="waitlist-label">People on Waitlist</div> -->
-                  <!-- </div> -->
-                  <!-- <div class="waitlist-stat"> -->
-                      <!-- <div class="waitlist-number">500</div> -->
-                      <!-- <div class="waitlist-label">Beta Spots Available</div> -->
-                  <!-- </div> -->
-                  <!-- <div class="waitlist-stat"> -->
-                      <!-- <div class="waitlist-number">50%</div> -->
-                      <!-- <div class="waitlist-label">Launch Discount</div> -->
-                  <!-- </div> -->
-              <!-- </div> -->
-  
-              <p style="margin-top: 3rem; color: rgba(255, 255, 255, 0.6); font-size: 0.875rem;">
-                  🔒 We respect your privacy. No spam, just important updates about FinUnity.
-              </p>
-          </div>
-      </section>
-  
-      <!-- Footer -->
-      <footer id="contact">
-          <div class="footer-content">
-              <div class="footer-brand">
-                  <h3>FinUnity</h3>
-                  <p>Building the future of personal finance. Join us on our journey to make financial management simple, intelligent, and accessible to everyone.</p>
-              </div>
-              
-              <div class="social-links">
-                  <a href="#" title="Twitter">𝕏</a>
-                  <a href="#" title="LinkedIn">💼</a>
-                  <a href="#" title="Instagram">📷</a>
-                  <a href="#" title="GitHub">⚡</a>
-              </div>
-  
-              <div class="footer-links">
-                  <a href="#">Blog</a>
-                  <a href="#">Careers</a>
-                  <a href="#">Press Kit</a>
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Terms of Service</a>
-              </div>
-          </div>
-          <div class="footer-bottom">
-              <p>&copy; 2025 FinUnity (Pre-launch). All rights reserved. Building Something Amazing.</p>
-          </div>
-      </footer>
-  
-      
+  </section>
+
+  <!-- Roadmap Section -->
+  <section class="roadmap" id="roadmap">
+    <div class="section-header animate-on-scroll">
+      <h2>Our Journey to Launch</h2>
+      <p>Follow our progress as we build the future of personal finance</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item animate-on-scroll">
+        <div class="timeline-content">
+          <h3>Q4 2024 - Foundation</h3>
+          <p>✅ Secured initial funding<br>
+            ✅ Assembled core team<br>
+            ✅ Completed market research<br>
+            ✅ Defined product roadmap</p>
+        </div>
+        <div class="timeline-dot completed"></div>
+      </div>
+      <div class="timeline-item animate-on-scroll">
+        <div class="timeline-content">
+          <h3>Q1 2025 - Development</h3>
+          <p>🔄 Building core infrastructure<br>
+            🔄 Developing AI engine<br>
+            🔄 Creating bank integrations<br>
+            🔄 Designing user interface</p>
+        </div>
+        <div class="timeline-dot current"></div>
+      </div>
+      <div class="timeline-item animate-on-scroll">
+        <div class="timeline-content">
+          <h3>Q2 2025 - Beta Launch</h3>
+          <p>📅 Private beta testing<br>
+            📅 User feedback integration<br>
+            📅 Security audits<br>
+            📅 Public beta release</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+      <div class="timeline-item animate-on-scroll">
+        <div class="timeline-content">
+          <h3>Q3 2025 - Official Launch</h3>
+          <p>🚀 Full public release<br>
+            🚀 iOS & Android apps<br>
+            🚀 Premium features<br>
+            🚀 Partner integrations</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="building" id="about">
+    <div class="section-header animate-on-scroll">
+      <h2>Why We're Building FinUnity</h2>
+      <p>Our mission is to democratize financial intelligence</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">💡</div>
+        <h3>The Problem</h3>
+        <p>Managing money across multiple accounts, cards, and goals is overwhelming. Current apps are either too simple
+          or too complex, and none offer truly intelligent guidance.</p>
+      </div>
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">🎯</div>
+        <h3>Our Solution</h3>
+        <p>We're combining the power of AI with beautiful design to create a financial companion that actually
+          understands your needs and helps you make better decisions.</p>
+      </div>
+      <div class="feature-card animate-on-scroll">
+        <div class="feature-icon">🌟</div>
+        <h3>Our Vision</h3>
+        <p>A world where everyone has access to personalized financial intelligence, where managing money is simple, and
+          where financial stress is replaced with confidence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Waitlist Section -->
+  <section class="waitlist" id="waitlist">
+    <div class="waitlist-content animate-on-scroll">
+      <h2
+        style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 1.5rem; background: linear-gradient(135deg, #FFFFFF, var(--light-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+        Be Among the First to Experience FinUnity
+      </h2>
+      <p style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 3rem;">
+        Join our exclusive waitlist for early access, special launch pricing, and the opportunity to shape the future of
+        personal finance.
+      </p>
+
+      <form class="waitlist-form" id="waitlistForm">
+        <input type="email" placeholder="Enter your email" class="waitlist-input" required id="emailInput">
+        <button type="submit" class="btn-primary">
+          Join Waitlist
+          <span>→</span>
+        </button>
+      </form>
+
+      <!-- <div class="waitlist-stats"> -->
+      <!-- <div class="waitlist-stat"> -->
+      <!-- <div class="waitlist-number" id="waitlistCount">2,847</div> -->
+      <!-- <div class="waitlist-label">People on Waitlist</div> -->
+      <!-- </div> -->
+      <!-- <div class="waitlist-stat"> -->
+      <!-- <div class="waitlist-number">500</div> -->
+      <!-- <div class="waitlist-label">Beta Spots Available</div> -->
+      <!-- </div> -->
+      <!-- <div class="waitlist-stat"> -->
+      <!-- <div class="waitlist-number">50%</div> -->
+      <!-- <div class="waitlist-label">Launch Discount</div> -->
+      <!-- </div> -->
+      <!-- </div> -->
+
+      <p style="margin-top: 3rem; color: rgba(255, 255, 255, 0.6); font-size: 0.875rem;">
+        🔒 We respect your privacy. No spam, just important updates about FinUnity.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>FinUnity</h3>
+        <p>Building the future of personal finance. Join us on our journey to make financial management simple,
+          intelligent, and accessible to everyone.</p>
+      </div>
+
+      <div class="social-links">
+        <a href="#" title="Twitter">𝕏</a>
+        <a href="#" title="LinkedIn">💼</a>
+        <a href="#" title="Instagram">📷</a>
+        <a href="#" title="GitHub">⚡</a>
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+        <a href="#">Press Kit</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 FinUnity (Pre-launch). All rights reserved. Building Something Amazing.</p>
+    </div>
+  </footer>
+
+
   <script src="script.js"></script>
-  </body>
-  </html>
+</body>
 
-
-
+</html>
